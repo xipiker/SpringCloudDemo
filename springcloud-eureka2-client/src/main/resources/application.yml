@@ -1,0 +1,10 @@
+eureka:
+  client:
+    service-url:
+      #向三个服务端分别注册
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8763
+spring:
+  application:
+    name: eureka-client
