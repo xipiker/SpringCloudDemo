@@ -9,6 +9,7 @@
         <module name="SpringCloud" />
         <module name="springcloud-consul-client" />
         <module name="springcloud-eureka-client" />
+        <module name="springcloud-eureka-feign-client" />
         <module name="springcloud-eureka-ribbon-client" />
         <module name="springcloud-eureka-server" />
         <module name="springcloud-eureka2-client" />
@@ -23,6 +24,7 @@
       <module name="springcloud-consul-client" options="-parameters" />
       <module name="springcloud-eureka-client" options="-parameters" />
       <module name="springcloud-eureka-consumer" options="-parameters" />
+      <module name="springcloud-eureka-feign-client" options="-parameters" />
       <module name="springcloud-eureka-ribbon-client" options="-parameters" />
       <module name="springcloud-eureka-server" options="-parameters" />
       <module name="springcloud-eureka2-client" options="-parameters" />
