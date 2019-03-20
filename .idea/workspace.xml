@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a94fa0-a169-419b-b17c-c11ea59fe81e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/comm/HiHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-client/src/main/java/pers/xipiker/springcloudzuulclient/MyFallbackProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-client/src/main/java/pers/xipiker/springcloudzuulclient/SpringcloudZuulClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-client/src/main/java/pers/xipiker/springcloudzuulclient/ZuulFallbackProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-zuul-client/src/test/java/pers/xipiker/springcloudzuulclient/SpringcloudZuulClientApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/dao/EurekaClientFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/dao/EurekaClientFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-eureka-ribbon-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-ribbon-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-eureka-ribbon-client/src/main/java/pers/xipiker/springcloudeurekaribbonclient/SpringcloudEurekaRibbonClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-ribbon-client/src/main/java/pers/xipiker/springcloudeurekaribbonclient/SpringcloudEurekaRibbonClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-eureka-ribbon-client/src/main/java/pers/xipiker/springcloudeurekaribbonclient/service/RibbonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-ribbon-client/src/main/java/pers/xipiker/springcloudeurekaribbonclient/service/RibbonService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,6 +28,7 @@
     <ignored path="$PROJECT_DIR$/springcloud-eureka2-client/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-eureka-ribbon-client/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-eureka-feign-client/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-zuul-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,115 +36,71 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springcloud-eureka-ribbon-client/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-eureka-feign-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="64" lean-forward="true" selection-end-line="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/SpringcloudEurekaFeignClientApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" selection-start-line="7" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/config/FeignConfig.java">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-client/src/main/java/pers/xipiker/springcloudzuulclient/SpringcloudZuulClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/comm/HiHystrix.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-client/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="97">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-client/src/main/java/pers/xipiker/springcloudzuulclient/MyFallbackProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/service/HiService.java">
+        <entry file="file://$PROJECT_DIR$/springcloud-eureka2-client/src/main/java/pers/xipiker/springcloudeureka2client/SpringcloudEureka2ClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="13" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-              </folding>
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/dao/EurekaClientFeign.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/ApplicationShutdownHooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="134">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/controller/HiController.java">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-client/src/main/java/pers/xipiker/springcloudzuulclient/ZuulFallbackProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-eureka-ribbon-client/src/main/java/pers/xipiker/springcloudeurekaribbonclient/controller/RibbonController.java">
+        <entry file="file://$PROJECT_DIR$/springcloud-zuul-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -144,9 +110,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -178,14 +144,18 @@
         <option value="$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/config/FeignConfig.java" />
         <option value="$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/service/HiService.java" />
         <option value="$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/controller/HiController.java" />
-        <option value="$PROJECT_DIR$/springcloud-eureka-ribbon-client/src/main/java/pers/xipiker/springcloudeurekaribbonclient/SpringcloudEurekaRibbonClientApplication.java" />
         <option value="$PROJECT_DIR$/springcloud-eureka-ribbon-client/src/main/java/pers/xipiker/springcloudeurekaribbonclient/service/HystrixCommand.java" />
-        <option value="$PROJECT_DIR$/springcloud-eureka-ribbon-client/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-eureka-ribbon-client/src/main/java/pers/xipiker/springcloudeurekaribbonclient/service/RibbonService.java" />
         <option value="$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/comm/HiHystrix.java" />
         <option value="$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/dao/EurekaClientFeign.java" />
         <option value="$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/SpringcloudEurekaFeignClientApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-ribbon-client/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-ribbon-client/src/main/java/pers/xipiker/springcloudeurekaribbonclient/SpringcloudEurekaRibbonClientApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-client/src/main/java/pers/xipiker/springcloudzuulclient/SpringcloudZuulClientApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-client/src/main/java/pers/xipiker/springcloudzuulclient/ZuulFallbackProvider.java" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-client/src/main/java/pers/xipiker/springcloudzuulclient/MyFallbackProvider.java" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-client/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -205,16 +175,18 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="807" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,25 +197,42 @@
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-eureka-ribbon-client" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-eureka-ribbon-client" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-eureka-ribbon-client" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-eureka-ribbon-client" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudzuulclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -252,8 +241,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,7 +250,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553004558933" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553052753142" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -273,10 +260,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="pers.xipiker.springcloudzuulclient" />
       <recent name="pers.xipiker.springcloudeurekaribbonclient.service" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -287,8 +280,9 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.19124088" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringcloudEureka2ClientApplication">
+  <component name="RunManager" selected="Spring Boot.SpringcloudZuulClientApplication">
     <configuration name="SpringcloudConsulClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud-consul-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pers.xipiker.springcloudconsulclient.SpringcloudConsulClientApplication" />
@@ -331,6 +325,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringcloudZuulClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-zuul-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pers.xipiker.springcloudzuulclient.SpringcloudZuulClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.SpringcloudConsulClientApplication" />
       <item itemvalue="Spring Boot.SpringcloudEureka2ClientApplication" />
@@ -338,6 +339,7 @@
       <item itemvalue="Spring Boot.SpringcloudEurekaRibbonClientApplication" />
       <item itemvalue="Spring Boot.SpringcloudEurekaServerApplication" />
       <item itemvalue="Spring Boot.SpringcloudEurekaFeignClientApplication" />
+      <item itemvalue="Spring Boot.SpringcloudZuulClientApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -353,7 +355,8 @@
       <workItem from="1552637302213" duration="2750000" />
       <workItem from="1552713951399" duration="6232000" />
       <workItem from="1552724174272" duration="5725000" />
-      <workItem from="1552970340970" duration="6631000" />
+      <workItem from="1552970340970" duration="8463000" />
+      <workItem from="1553008180683" duration="3638000" />
     </task>
     <task id="LOCAL-00001" summary="add springcloud-eureka-feign-client">
       <created>1552983704992</created>
@@ -362,17 +365,23 @@
       <option name="project" value="LOCAL" />
       <updated>1552983704992</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add Feign Hystrix and RestTemplate Ribbon Hystrix">
+      <created>1553004705154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553004705154</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21338000" />
+    <option name="totallyTimeSpent" value="26808000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26466382" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26824033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -380,21 +389,22 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.43638852" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4945355" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50615597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329235" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32968536" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32831737" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32867134" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.329235" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32831737" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.35519126" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.67305064" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -412,7 +422,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add springcloud-eureka-feign-client" />
-    <option name="LAST_COMMIT_MESSAGE" value="add springcloud-eureka-feign-client" />
+    <MESSAGE value="add Feign Hystrix and RestTemplate Ribbon Hystrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Feign Hystrix and RestTemplate Ribbon Hystrix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/springcloud-eureka-server/src/main/resources/application.properties" />
@@ -461,13 +472,6 @@
             <element signature="e#465#466#0" expanded="true" />
             <element signature="e#528#529#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-eureka2-client/src/main/java/pers/xipiker/springcloudeureka2client/SpringcloudEureka2ClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -551,27 +555,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-eureka-ribbon-client/src/main/java/pers/xipiker/springcloudeurekaribbonclient/service/HystrixCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-eureka-ribbon-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="38" column="21" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-eureka-ribbon-client/src/main/java/pers/xipiker/springcloudeurekaribbonclient/SpringcloudEurekaRibbonClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" selection-start-line="7" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-ribbon-client/src/main/java/pers/xipiker/springcloudeurekaribbonclient/service/HystrixCommand.java" />
     <entry file="file://$PROJECT_DIR$/springcloud-eureka-ribbon-client/src/main/java/pers/xipiker/springcloudeurekaribbonclient/config/RibbonConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -609,7 +593,7 @@
     <entry file="file://$PROJECT_DIR$/springcloud-eureka-feign-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
-          <caret line="64" lean-forward="true" selection-end-line="64" />
+          <caret line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
@@ -617,16 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" selection-start-line="7" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/config/FeignConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,7 +641,27 @@
     <entry file="file://$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/controller/HiController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="16" selection-end-column="1" />
+          <caret line="8" selection-start-line="8" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-ribbon-client/src/main/java/pers/xipiker/springcloudeurekaribbonclient/SpringcloudEurekaRibbonClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/java/pers/xipiker/springcloudeurekafeignclient/config/FeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -677,14 +671,75 @@
     <entry file="file://$PROJECT_DIR$/springcloud-eureka-feign-client/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-ribbon-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-eureka-ribbon-client/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="12" />
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka2-client/src/main/java/pers/xipiker/springcloudeureka2client/SpringcloudEureka2ClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/ApplicationShutdownHooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-client/src/main/java/pers/xipiker/springcloudzuulclient/SpringcloudZuulClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-client/src/main/java/pers/xipiker/springcloudzuulclient/ZuulFallbackProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-client/src/main/java/pers/xipiker/springcloudzuulclient/MyFallbackProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
         </state>
       </provider>
     </entry>

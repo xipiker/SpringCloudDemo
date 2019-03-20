@@ -13,6 +13,7 @@
         <module name="springcloud-eureka-ribbon-client" />
         <module name="springcloud-eureka-server" />
         <module name="springcloud-eureka2-client" />
+        <module name="springcloud-zuul-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,7 @@
       <module name="springcloud-eureka-ribbon-client" options="-parameters" />
       <module name="springcloud-eureka-server" options="-parameters" />
       <module name="springcloud-eureka2-client" options="-parameters" />
+      <module name="springcloud-zuul-client" options="-parameters" />
     </option>
   </component>
 </project>
